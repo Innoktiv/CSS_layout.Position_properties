@@ -6,118 +6,108 @@ body {
 }
 
 .container {
-
-  background-color: black;
-  /* display:inline; */
-  /* display: block; */
   display: flex;
-  
 }
 
 .main{
-  
-  background-color: pink;
-  display: flex;
-  display:inline;
-  display: block;
-
+  position: relative;
   width: 100%;
   text-align: center;  
-  
 }
 
 .flag {
-
-  box-sizing: border-box;
+  /* position: absolute; */
+  /* position: fixed; */
+  /* position: relative; */
+  /* box-sizing: border-box; */
   /* box-sizing:content-box; */
-
-  width: 200px;
-  height: 100px;
+  width: 180px;
+  height: 90px;
 }
 
 .spain {    
-  /* display: inline; */
-  /* display: block; */
   display: inline-block;
   background-color: red;
 }
 .yellow_line {
   box-sizing: content-box;
-  display: inline-block;
-  display: flex;
-  display: flow-root;
-  display: inline;
-  display: block;
-  
   position: absolute;
   background-color:yellow;
-  top: 31px;
-  width: 200px;
+  top: 25px;
+  width: 180px;
   height: 35px;
   z-index: 10;
 }
 
 .arab_emirates {    
-  /* display: inline; */
-  /* display: block; */
   display: inline-block;
   background-color: red;
 }
-.tricolor {
-
+.green {
+  box-sizing: content-box;
+  background-color:green;
+  position: relative;
+  width: 140px;
+  height: 30px;
+  float: right;
+}
+.white {
+  box-sizing: content-box;
+  position: relative;
+  background-color:white;
+  text-align: right;
+  float: right;
+  width: 140px;
+  height: 30px;
+}
+.black {
+  box-sizing: content-box;
+  position: relative;
   background-color:black;
-  
-  box-sizing: border-box;
-  /* display: flex;
-  display: block;
-  display: inline;
-  display: flow-root; */
-  display: inline-block;
-  
-  /* position: absolute; */
-
-  top: 160px;
-  left: 120px;
-  width: 50px;
-  height: 100px;
+  float: right;
+  width: 140px;
+  height: 30px;
   z-index: 10;
 }
 
 .denmark {     
-  /* box-sizing: content-box;  */
   display: inline-block;
   background-color: red;
 }
-.white_line {
-
+.white_line_h {
   box-sizing: content-box;
-  display: block;
-  position: absolute;
   background-color:white;
-  top: 40px;
-  width: 200px;
-  height: 20px;
+  position: relative;
+  top: 35px;
+  width: 180px;
+  height: 15px;
+  z-index: 10;
+}
+.white_line_v {
+  box-sizing: content-box;
+  position: relative;
+  background-color:white;
+  top: -15px;
+  left: 40px;
+  width: 15px;
+  height: 90px;
   z-index: 10;
 }
 
 .japan {     
-  /* box-sizing: content-box;  */
   display: inline-block;
   background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.08);
 }
 .dot {
-
-  box-sizing: border-box;
-  display: inline-block;
+  box-sizing: content-box;
   background-color:red;
-  
-  /* top: 260px; */
-  margin-top: 28px;
-  left: 450px;
+position: relative;
+  top: 25%;
+  left: 60px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  
   z-index: 10;
 }
 
