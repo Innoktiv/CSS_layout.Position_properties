@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: black;
+  color: #fff;
+  display: inline-block;
+  width: 100%;
+  padding-left: 10%;
+}
+.container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 2fr;
+  background-color: blue;
+  width: 100%;
+}
+
+.sidebar {
+  box-sizing: content-box;
+  display: block;
+  width: 20vw;
+  padding-left: 5%;
+  background-color: antiquewhite; 
+  float: left;
+}
+
+.content-section {
+  box-sizing: content-box;
+  display: block;
+  float: left;
+  width: 80vw;
+  padding-left: 5%;
+  background-color: aqua;
+}
+
+.footer {
+  background-color: grey;
+  top: 0;
+  display: block;
+  position:relative;
+  height: 50px;
+  padding: 50px;
+  text-align: center;
+}
